@@ -900,8 +900,8 @@ section{
         top:99%;
         left:0;
         right:0;
-        background: #fff;
-        border-top: rgb(82, 82, 82) !important;
+        background: rgb(82, 82, 82) !important;
+        border-top: var(--border);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
