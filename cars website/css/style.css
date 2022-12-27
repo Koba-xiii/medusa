@@ -311,8 +311,8 @@ section{
 }
 
 .home{
-    height: 100vh;
-    padding-top: 20rem;
+    height: 100%;
+    padding-top: 20rem;  
     text-align: center;
     /* overflow-x: hidden; */
 }
@@ -445,7 +445,7 @@ section{
 }
 
 .swiper-pagination-bullet-active{
-    background: #ffffff;
+    background: #FFF !important;
 }
 
 .services .box-container{
@@ -641,7 +641,6 @@ section{
     height: 70%;
     margin: 0 auto;
 }
-
 .house .swiper-slide{
     display: block;
     margin: 0 auto;
@@ -654,7 +653,7 @@ section{
     overflow: hidden;
 }
 .intro{
-    height: 110px;
+    height: 150px;
     width: 700px;
     font-size: large;
     padding: 6px;
@@ -668,7 +667,6 @@ section{
     transition: .5s;
 }
 .intro h1{
-    margin: 10px;
     text-align: center;
     font-size: 60px;
 }
@@ -698,6 +696,14 @@ section{
     opacity: 0;
     margin: 7px;
 }
+.lang img{
+    width: 15px;
+    height: 15px;
+}
+.lang:hover{
+    cursor: pointer;
+    text-decoration: underline
+}
 .intro span{
     color: #0048E8;
     font-weight: 700;
@@ -708,8 +714,8 @@ section{
 .house img{
     border-radius: 15px;
     max-height: 50%;
-    max-width: 100%;
-    /* margin-left: 470px; */
+    max-width: 90%;
+    padding-left: 160px !important;
 }
 .house .price{
     font-size: 4.5rem;
@@ -718,10 +724,14 @@ section{
 
 .house .price-2{
     font-size: 4.5rem;
-    /* margin-bottom: 1re; */
     color: var(--black);
 }
-
+.box i img{
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 35px;
+    height: 35px;
+}
 .reviews .review-slider .box .content .stars i{
     color: #fdba3c;
     font-size: 1.7rem;
@@ -897,7 +907,7 @@ section{
 
     .header .navbar{
         position: absolute;
-        top:99%;
+        top:99%; 
         left:0;
         right:0;
         background: rgb(82, 82, 82) !important;
